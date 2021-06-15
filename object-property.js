@@ -18,5 +18,4 @@ const names = students.map(s => s.name)
 const ids = students.map(s => s.id)
 const ids2 = students.filter(s=> s.id > 40)
 const ids3 = students.find(s=> s.id > 40)
-
 console.log(ids3);
